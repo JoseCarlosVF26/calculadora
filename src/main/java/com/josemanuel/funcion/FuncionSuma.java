@@ -7,7 +7,7 @@ import java.util.function.Function;
 public class FuncionSuma implements Function<Scanner, Void>{
 
     @Override
-    public Void apply(Scanner sc) {
+    public Void apply(Scanner sc) { //Esta función se llega desde el menú principal mediante la linea 45
         
         System.out.println("\nOperación seleccionada suma:\n");
         System.out.println("A + B\n");

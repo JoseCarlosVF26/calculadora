@@ -9,7 +9,7 @@ import java.util.function.Function;
 public class FuncionResta implements Function<Scanner, Void>{
 
     @Override
-    public Void apply(Scanner sc) {
+    public Void apply(Scanner sc) { //A esta función se accede desde el programa principal, concretamente desde la linea 46
         
         System.out.println("\nOperación seleccionada resta:\n");
         System.out.println("A - B\n");

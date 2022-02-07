@@ -19,9 +19,9 @@ public class FuncionArea implements Function<Scanner, Void>{
         String aStr = sc.next();
         BigDecimal aBD = new BigDecimal(aStr);
 
-        System.out.println("Resultado" + pBD.multiply(aBD).divide(BigDecimal.valueOf(2)).toString());
+        System.out.println("Resultado" + pBD.multiply(aBD).divide(BigDecimal.valueOf(2)).toString()); //Se pinta la palabra "Resultado" junto con el resultado de multiplicar las dos variables pedidas y dividirla entre 2
 
-        return null;
+        return null; //En todo la función se usan las variables de tipo "BigDecimal"
     }
 
     
